@@ -63,281 +63,143 @@ body {
     background: #f5f5f5;
 }
 
-
-
-
-/*.viewport{ max-width:640px; min-width:300px; margin:0 auto;}   */
-.container{
+.container{ 
     width:100%;
-    height:1820px;
-    background: #fff
+    height:850px;
 }
 
-/*
-.foucs{
-    width: 100%;
-    height: 100%;
-    background: url(../images/banner.gif) no-repeat;
-}
-*/
-.choose-title{
-    height: 102px;
-    background: url(../images/bg.png) repeat-x;
-    
-}
-.choose-title ul{
-    height: 102px;
+.head{
+    height: 65px;
+    background-color: #444446;
     display: -webkit-flex
 }
-.choose-title ul li{
-    height: 70px;
-    float: left; 
-    width: 33.33%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-    background-color: #f3dbb0;
-    border-radius: 10px;
-    color: #59493f;
-    font-size: 16px ;
+
+.speaker{
+    width: 15%;
+    margin-left: 10px
+}
+
+.speaker img{
+    margin-left: 10px;
+    margin-top: 15px
+}
+.logo{
+    width: 70%;
+    background: url(../images/logo2.png) center center no-repeat
+}
+
+.empty{
+    width: 15%;
+    margin-left: 10px
+}
+
+.focus{
+
+}
+
+.menu{
+    height: 65px;
+    background-color: #444446;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0
+}
+
+.menu ul{
+    height: 65px;
+    display: -webkit-flex
+}
+
+.menu ul li{
+    width: 20%
+}
+
+.menu ul li p{
+    color: #b3b5b4;
     text-align: center;
-    line-height: 70px
-}
-.choose-title ul li:last-child{
-    margin-right: 15px;
-    background-color: #fff
+    font-size: 12px;
+    line-height: 8px;
+    padding-top: 6px
 }
 
-.choose-item{
-    height: 343px;
-    background: url(../images/02.jpg) repeat-x;
+.game-terrace{
+    height: 234px;
+    margin-top: -5px
 }
 
-.choose-item p{
-    
-    line-height: 25px;
-    font-weight: bold
+.terrace-title p{
+    font-size: 18px;
+    color: #4b4b4b;
+    padding-top: 16px;
+    padding-left: 5px
 }
 
-.choose-item-up{
-    height: 100px;
-    padding-top: 15px;
+.terrace-img{
+    height: 200px;
+}
+
+.terrace-img ul{
+    height: 92px;
+    display: -webkit-flex
+}
+
+
+.terrace-img ul li{
+    width: 50%;
+    margin-left: 12px;
+    padding-top:12px
+}
+
+.hot-game{
+    height: 115px;
+}
+
+.hotgame-title p{
+    font-size: 18px;
+    color: #4b4b4b; 
+    padding-left: 5px
+}
+
+.hotgame-img{
+    height: 95px
+}
+
+.hotgame-img ul{
+    height: 95px;
     display: -webkit-flex  
 }
 
-.choose-item-up-aaa{
-    height: 70px;
-    width: 33.33%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 40px;
-    background-color: #cfa972;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 15px;
-    line-height: 70px;
-    padding-left: 10px;
-    position: relative
+.hotgame-img ul li{
+    width: 20%;
+    margin-left: 12px;
+    padding-top:12px
 }
-.jianhao{
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    top: 25px;
-    right: 5px;
-    border-radius: 5px;
-    position: absolute;
-    color: #cfa972;
-    font-size: 35px;
-    line-height: 18px;
-    text-align: center
-    
-}
-.choose-item-up-bbb{
-    height: 70px;
-    width: 33.33%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 40px;
-    border-radius: 10px;
-    font-size: 15px ;
+
+.hotgame-img ul li p{
+    color: #4b4b4b;
     text-align: center;
-    line-height: 70px;
-    color: #42362f;
-    font-weight: bold
-}
-.choose-item-up-ccc{
-    height: 70px;
-    width: 33.33%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 40px;
-    background-color: #cfa972;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 15px ;
-    line-height: 70px;
-    margin-right: 40px;
-    background-color: #471aff;
-    color: #fff;
-    padding-left: 10px;
-    position: relative
+    line-height: 16px
 }
 
-.duihao{
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    top: 25px;
-    right: 5px;
-    border-radius: 50px;
-    position: absolute;
-    color: #471aff;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 20px;
-    text-align: center
-    
-}
 
-.choose-item-mid{
-   height: 114px;
-}
 
-.choose-item-mid ul{
-    height: 114px;
-    display: -webkit-flex;
-    padding-top: 20px
-    
-}
 
-.choose-item-mid ul li{
-    height: 70px;
-    float: left; 
-    width: 33.33%;
-    margin-left: 8px;
-    margin-bottom: 15px;
-    border: 2px solid #cfa972 ;
-    border-radius: 10px;
-    color: #59493f;
-    font-size: 16px ;
-    text-align: center;
-    line-height: 70px;
-    position: relative
-}
-.choose-item-mid ul li:last-child{
-    margin-right: 8px
-}
-.duihuao2{
-    width: 25px;
-    height: 25px;
-    background-color: #fff;
-    top: 50px;
-    right: -8px;
-    border-radius: 50px;
-    position: absolute;
-    color: #471aff;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 27px;
-    text-align: center;
-    border: 2px solid #d3af7d
-    
-}
 
-.choose-item-down{
-   height: 114px;
-}
 
-.choose-item-down ul{
-    height: 114px;
-    display: -webkit-flex;   
-}
 
-.choose-item-down ul li{
-    height: 70px;
-    float: left; 
-    width: 33.33%;
-    margin-left: 8px;
-    margin-bottom: 15px;
-    border: 2px solid #cfa972 ;
-    border-radius: 10px;
-    color: #59493f;
-    font-size: 16px ;
-    text-align: center;
-    line-height: 70px
-}
-.choose-item-down ul li:last-child{
-    margin-right: 8px
-}
 
-.ranking-1{
-    height: 624px;
-}
 
-.ranking-1 ul{
-    height: 624px;
-}
 
-.ranking-1 ul li{
-    height: 104px;
-    background: url(../images/ranking-bg.jpg) repeat-x;
-    display: -webkit-flex; 
-}
 
-.ranking-2{
-    height: 114px;
-    background-color: #fff
-}
 
-.ranking-2 p{
-    
-    line-height: 25px;
-    font-weight: bold
-}
-.ranking-2 ul{
-    height: 114px;
-    display: -webkit-flex;
-    padding-top: 20px
-}
 
-.ranking-2 ul li{
-    height: 70px;
-    float: left; 
-    width: 33.33%;
-    margin-left: 8px;
-    margin-bottom: 15px;
-    border: 2px solid #cfa972 ;
-    border-radius: 10px;
-    color: #59493f;
-    font-size: 16px ;
-    text-align: center;
-    line-height: 70px;
-    position: relative
-}
 
-.ranking-2 ul li:last-child{
-    margin-right: 8px
-}
 
-.ranking-3{
-    height: 416px;
-}
 
-.ranking-3 ul{
-    height: 416px;
-}
 
-.ranking-3 ul li{
-    height: 104px;
-    background: url(../images/ranking-bg.jpg) repeat-x;
-    display: -webkit-flex; 
-}
-.menu{
-    
-    height: 172px;
-    position: fixed;
-    right:0;
-    left: 0;
-    bottom: 0
-}
+
+
+
+
+
